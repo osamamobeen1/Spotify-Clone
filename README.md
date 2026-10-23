@@ -55,4 +55,4 @@ This project strengthened my understanding of JavaScript DOM manipulation, async
 ## Disclaimer
 
 This project is created for educational purposes only and is not affiliated with or endorsed by Spotify.
-![Dashboard Screenshot](./assets/screenshot1.png)
+![Dashboard Screenshot](./screenshot1.png)
