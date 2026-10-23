@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <title>Spotify - Web Player: Music for everyone</title>
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left">
+            <div class="close">
+                <img width="30px" class="invert" src="img/close.svg" alt="">
+            </div>
+            <div class="home bg-grey rounded m-1 p-1">
+                <div class="logo">
+                    <img class="invert" width="120" src="img/logo.svg" alt="">
+                </div>
+                <ul>
+                    <li><img class="invert" src="img/home.svg" alt="home">Home</li>
+                    <li><img class="invert" src="img/search.svg" alt="home">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-grey rounded m-1 p-1">
+                <div class="heading">
+                    <img class="invert" src="img/playlist.svg" alt="">
+                    <h2>
+                        Your Library
+                    </h2>
+                    </div>
+
+                    <div class="songList">
+                        
+                        <ul>
+                           
+                        </ul>
+                    </div>                   
+                
+                <footer class="footer">
+                    <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/privacy/"><span>Privacy Center</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div>
+                </footer>
+            </div>
+        </div>
+
+        <div class="right bg-grey rounded">
+            <div class="header">
+
+                <div class="nav">
+                    <div class="hamburgerContainer">
+                        <img class="invert hamburger" src="img/hambuger.svg" alt="">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#ffffff"
+                        fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#ffffff"
+                    fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 18C9 18 15.0001 13.5812 15 12C14.9999 10.4189 9 6 9 6" />
+                </svg>
+            </div>
+
+                </div>
+                <div class="buttons">
+                    <button class="signupbtn">Sign Up</button>
+                    <button class="loginbtn">Login</button>
+                </div>
+            </div>
+            <div class="spotifyPlaylists">
+                <h1>Spotify Playlists</h1>
+                <div class="cardContainer">
+                    <div data-folder="songs/cs" class="card">
+                        <div class="play">
+                            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="50" cy="50" r="48" fill="#1DB954" />
+                                <path d="M40 32 L72 50 L40 68 Z" fill="black" />
+                            </svg>
+                    </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e0242070afa09e06a2f9bb2483d" alt="">
+                        <h2>Punjabi Songs</h2>
+                        <p>Most Streamed Punjabi Songs 2026</p>
+                    </div>
+                    <div data-folder="songs/ncs" class="card">
+                        <div class="play">
+                            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="50" cy="50" r="48" fill="#1DB954" />
+                                <path d="M40 32 L72 50 L40 68 Z" fill="black" />
+                            </svg>
+                    </div>
+                        <img src="https://i.pinimg.com/474x/cc/87/e5/cc87e5acf9efb60a88884d22e5d1a1fc.jpg"">
+                        <h2>English Songs</h2>
+                        <p>All time Hit Songs</p>
+                    </div>
+
+
+                
+                </div>
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle">
+                            
+                        </div>
+                    </div>
+                    <div class="abovebar">
+
+                        
+                        <div class="songinfo">
+
+                    </div>
+                    <div class="songbuttons">
+                        <img width="35" id="previous" src="img/prevsong.svg" alt="">
+                        <img width="35" id="play" src="img/play.svg" alt="">
+                        <img width="35" id="next" src="img/nextsong.svg" alt="">
+                    </div>
+
+                    <div class="timevol">
+                        <div class="songtime">
+                        </div>
+                        <div class="volume">
+                            <img width="25" src="img/volume.svg" alt="">
+                            <div class="range">
+                                <input type="range" name="volume">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.items-center{
+    align-items: center;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.bg-grey{
+    background-color: #121212;
+}
+.invert{
+    filter: invert(1);
+}
+.rounded{
+    border-radius: 7px;
+}
+.m-1{
+    margin: 5px;
+}
+.p-1{
+    padding: 10px;
+}
+/* General scrollbar width and height */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+/* Track (the background area) */
+::-webkit-scrollbar-track {
+  background: #1E1E1E; /* Dark grey color */
+}
+
+/* Thumb (the draggable handle) */
+::-webkit-scrollbar-thumb {
+  background: #555; /* Medium grey color */
+  border-radius: 6px; /* Optional: makes it rounded */
+}
+
+/* On hover effects for the thumb (optional) */
+::-webkit-scrollbar-thumb:hover {
+  background: #777;
+}
+
