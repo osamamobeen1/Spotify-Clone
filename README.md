@@ -42,7 +42,7 @@ spotify-clone/
 
 1. Clone this repository:
    ```bash
-   git clone YOUR_REPOSITORY_URL
+   git clone https://github.com/osamamobeen1/Spotify-Clone
    ```
 2. Open the project folder in Visual Studio Code.
 3. Launch `index.html` using the Live Server extension.
@@ -55,3 +55,4 @@ This project strengthened my understanding of JavaScript DOM manipulation, async
 ## Disclaimer
 
 This project is created for educational purposes only and is not affiliated with or endorsed by Spotify.
+![Dashboard Screenshot](./assets/screenshot1.png)
